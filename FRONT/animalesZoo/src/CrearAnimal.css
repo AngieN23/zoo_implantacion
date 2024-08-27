@@ -1,0 +1,65 @@
+/* CrearAnimal.css */
+
+/* Estilo para centrar el formulario */
+.form-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Hace que la altura del contenedor ocupe el 100% del viewport */
+    width: 90vw; 
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px; /* Ajusta el ancho del formulario */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para los labels */
+  label {
+    font-weight: bold;
+    color: black; /* Color del texto en los labels */
+  }
+  
+  /* Estilo para los inputs */
+  input[type="text"] {
+    background-color: white; /* Color de fondo blanco para los inputs */
+    color: black; /* Color del texto negro */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el botón */
+  button {
+    background-color: blue; /* Color de fondo azul para el botón */
+    color: white; /* Color del texto blanco */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: darkblue; /* Color más oscuro al pasar el cursor */
+  }
+  
+  h2 {
+    color: black;
+    position: absolute; /* Posiciona el contenedor de manera absoluta dentro del contenedor relativo */
+    top: 0; /* Ubica el botón en la parte superior del contenedor */
+    right: -10%; /* Ajusta el botón al centro horizontalmente dentro del contenedor */
+    transform: translateX(100%); /* Centra el botón horizontalmente */
+    margin-bottom: 5px; /* Espacio debajo del botón */
+  }
+
+    

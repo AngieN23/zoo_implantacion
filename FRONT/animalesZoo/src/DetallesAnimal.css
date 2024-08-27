@@ -1,0 +1,51 @@
+.detalles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra la tabla horizontalmente */
+    height: 60vh; /* Hace que la altura del contenedor ocupe el 60% del viewport */
+    width: 90vw; /* Ajusta el ancho del contenedor al 90% del viewport */
+    overflow: auto;
+  }
+  
+  h2 {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    color: black; /* Coloca el texto de la tabla en negro */
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  
+  .volver-boton {
+    margin-top: 20px;
+    align-self: flex-start; /* Coloca el botón al inicio en relación a la flexbox */
+  }
+  
